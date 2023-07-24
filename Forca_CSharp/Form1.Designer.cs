@@ -185,6 +185,7 @@
             this.btTenta.TabIndex = 14;
             this.btTenta.Text = "Tentar";
             this.btTenta.UseVisualStyleBackColor = true;
+            this.btTenta.Click += new System.EventHandler(this.btTenta_Click);
             // 
             // mtLetra
             // 
