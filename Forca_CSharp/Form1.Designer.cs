@@ -195,6 +195,7 @@
             this.mtLetra.Name = "mtLetra";
             this.mtLetra.Size = new System.Drawing.Size(100, 20);
             this.mtLetra.TabIndex = 15;
+            this.mtLetra.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.mtLetra_MaskInputRejected);
             // 
             // pbPernaE
             // 
