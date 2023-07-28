@@ -25,6 +25,10 @@ namespace Forca_CSharp
             escondido = new char[20];
         }
 
+        private void tbPalavra_TextChanged(object sender, EventArgs e)
+        {
+
+        }
 
         private void btTenta_Click(object sender, EventArgs e)
         {
@@ -70,7 +74,7 @@ namespace Forca_CSharp
             if (faltam == 0)
             {
                 MessageBox.Show("Parabens, voce venceu");
-                lbPalavra.Enabled = true;
+                tbPalavra.Enabled = true;
                 btComeca.Enabled = true;
                 mtLetra.Enabled = false;
                 btTenta.Enabled = false;

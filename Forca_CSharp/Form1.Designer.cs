@@ -165,6 +165,7 @@
             this.tbPalavra.PasswordChar = '*';
             this.tbPalavra.Size = new System.Drawing.Size(100, 20);
             this.tbPalavra.TabIndex = 11;
+            this.tbPalavra.TextChanged += new System.EventHandler(this.tbPalavra_TextChanged);
             // 
             // btComeca
             // 
