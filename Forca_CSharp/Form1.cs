@@ -30,6 +30,11 @@ namespace Forca_CSharp
 
         }
 
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
         private void btTenta_Click(object sender, EventArgs e)
         {
             //codigo que verifica se a letra ja foi achada

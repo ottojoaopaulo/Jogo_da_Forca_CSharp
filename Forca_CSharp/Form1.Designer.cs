@@ -62,113 +62,127 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(47, 37);
+            this.label1.Font = new System.Drawing.Font("Tahoma", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(141, 17);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(75, 13);
+            this.label1.Size = new System.Drawing.Size(179, 29);
             this.label1.TabIndex = 0;
             this.label1.Text = "Jogo da Forca";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(47, 68);
+            this.label2.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(47, 71);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(82, 13);
+            this.label2.Size = new System.Drawing.Size(119, 19);
             this.label2.TabIndex = 1;
             this.label2.Text = "Digite a Palavra";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(45, 154);
+            this.label3.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(45, 168);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(80, 13);
+            this.label3.Size = new System.Drawing.Size(122, 19);
             this.label3.TabIndex = 2;
             this.label3.Text = "Digite uma letra";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(45, 259);
+            this.label4.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(45, 270);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(43, 13);
+            this.label4.Size = new System.Drawing.Size(60, 19);
             this.label4.TabIndex = 3;
             this.label4.Text = "Palavra";
             // 
             // lbPalavra
             // 
             this.lbPalavra.AutoSize = true;
-            this.lbPalavra.Location = new System.Drawing.Point(124, 259);
+            this.lbPalavra.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbPalavra.Location = new System.Drawing.Point(124, 270);
             this.lbPalavra.Name = "lbPalavra";
-            this.lbPalavra.Size = new System.Drawing.Size(16, 13);
+            this.lbPalavra.Size = new System.Drawing.Size(27, 19);
             this.lbPalavra.TabIndex = 4;
             this.lbPalavra.Text = "---";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(45, 319);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(57, 13);
+            this.label6.Size = new System.Drawing.Size(81, 19);
             this.label6.TabIndex = 5;
             this.label6.Text = "Tentativas";
             // 
             // lbTentadas
             // 
             this.lbTentadas.AutoSize = true;
+            this.lbTentadas.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbTentadas.Location = new System.Drawing.Point(124, 319);
             this.lbTentadas.Name = "lbTentadas";
-            this.lbTentadas.Size = new System.Drawing.Size(16, 13);
+            this.lbTentadas.Size = new System.Drawing.Size(27, 19);
             this.lbTentadas.TabIndex = 6;
             this.lbTentadas.Text = "---";
             // 
             // label8
             // 
             this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.Location = new System.Drawing.Point(90, 372);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(41, 13);
+            this.label8.Size = new System.Drawing.Size(62, 19);
             this.label8.TabIndex = 7;
             this.label8.Text = "Faltam:";
             // 
             // lbFaltam
             // 
             this.lbFaltam.AutoSize = true;
+            this.lbFaltam.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbFaltam.Location = new System.Drawing.Point(176, 372);
             this.lbFaltam.Name = "lbFaltam";
-            this.lbFaltam.Size = new System.Drawing.Size(13, 13);
+            this.lbFaltam.Size = new System.Drawing.Size(18, 19);
             this.lbFaltam.TabIndex = 8;
             this.lbFaltam.Text = "0";
             // 
             // label10
             // 
             this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.Location = new System.Drawing.Point(90, 412);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(31, 13);
+            this.label10.Size = new System.Drawing.Size(52, 19);
             this.label10.TabIndex = 9;
-            this.label10.Text = "Erros";
+            this.label10.Text = "Erros:";
             // 
             // lbErros
             // 
             this.lbErros.AutoSize = true;
+            this.lbErros.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbErros.Location = new System.Drawing.Point(176, 412);
             this.lbErros.Name = "lbErros";
-            this.lbErros.Size = new System.Drawing.Size(13, 13);
+            this.lbErros.Size = new System.Drawing.Size(18, 19);
             this.lbErros.TabIndex = 10;
             this.lbErros.Text = "0";
             // 
             // tbPalavra
             // 
+            this.tbPalavra.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbPalavra.Location = new System.Drawing.Point(48, 100);
             this.tbPalavra.Name = "tbPalavra";
             this.tbPalavra.PasswordChar = '*';
-            this.tbPalavra.Size = new System.Drawing.Size(100, 20);
+            this.tbPalavra.Size = new System.Drawing.Size(100, 23);
             this.tbPalavra.TabIndex = 11;
             this.tbPalavra.TextChanged += new System.EventHandler(this.tbPalavra_TextChanged);
             // 
             // btComeca
             // 
+            this.btComeca.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btComeca.Location = new System.Drawing.Point(179, 100);
             this.btComeca.Name = "btComeca";
             this.btComeca.Size = new System.Drawing.Size(75, 23);
@@ -180,7 +194,8 @@
             // btTenta
             // 
             this.btTenta.Enabled = false;
-            this.btTenta.Location = new System.Drawing.Point(179, 195);
+            this.btTenta.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btTenta.Location = new System.Drawing.Point(179, 202);
             this.btTenta.Name = "btTenta";
             this.btTenta.Size = new System.Drawing.Size(75, 23);
             this.btTenta.TabIndex = 14;
@@ -191,17 +206,18 @@
             // mtLetra
             // 
             this.mtLetra.Enabled = false;
-            this.mtLetra.Location = new System.Drawing.Point(48, 195);
+            this.mtLetra.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mtLetra.Location = new System.Drawing.Point(48, 202);
             this.mtLetra.Mask = "a";
             this.mtLetra.Name = "mtLetra";
-            this.mtLetra.Size = new System.Drawing.Size(100, 20);
+            this.mtLetra.Size = new System.Drawing.Size(100, 23);
             this.mtLetra.TabIndex = 15;
             this.mtLetra.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.mtLetra_MaskInputRejected);
             // 
             // pbPernaE
             // 
             this.pbPernaE.Image = global::Forca_CSharp.Properties.Resources.Perna_esq;
-            this.pbPernaE.Location = new System.Drawing.Point(332, 211);
+            this.pbPernaE.Location = new System.Drawing.Point(462, 208);
             this.pbPernaE.Name = "pbPernaE";
             this.pbPernaE.Size = new System.Drawing.Size(45, 75);
             this.pbPernaE.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -212,7 +228,7 @@
             // pbPernaD
             // 
             this.pbPernaD.Image = global::Forca_CSharp.Properties.Resources.Perna_dir;
-            this.pbPernaD.Location = new System.Drawing.Point(375, 211);
+            this.pbPernaD.Location = new System.Drawing.Point(505, 208);
             this.pbPernaD.Name = "pbPernaD";
             this.pbPernaD.Size = new System.Drawing.Size(45, 75);
             this.pbPernaD.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -223,7 +239,7 @@
             // pbBracoE
             // 
             this.pbBracoE.Image = global::Forca_CSharp.Properties.Resources.braco_esq;
-            this.pbBracoE.Location = new System.Drawing.Point(324, 179);
+            this.pbBracoE.Location = new System.Drawing.Point(454, 176);
             this.pbBracoE.Name = "pbBracoE";
             this.pbBracoE.Size = new System.Drawing.Size(45, 36);
             this.pbBracoE.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -234,7 +250,7 @@
             // pbBracoD
             // 
             this.pbBracoD.Image = global::Forca_CSharp.Properties.Resources.braco_dir;
-            this.pbBracoD.Location = new System.Drawing.Point(383, 179);
+            this.pbBracoD.Location = new System.Drawing.Point(513, 176);
             this.pbBracoD.Name = "pbBracoD";
             this.pbBracoD.Size = new System.Drawing.Size(45, 36);
             this.pbBracoD.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -245,7 +261,7 @@
             // pbCorpo
             // 
             this.pbCorpo.Image = global::Forca_CSharp.Properties.Resources.corpo;
-            this.pbCorpo.Location = new System.Drawing.Point(354, 179);
+            this.pbCorpo.Location = new System.Drawing.Point(484, 176);
             this.pbCorpo.Name = "pbCorpo";
             this.pbCorpo.Size = new System.Drawing.Size(45, 36);
             this.pbCorpo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -256,7 +272,7 @@
             // pbCabeca
             // 
             this.pbCabeca.Image = global::Forca_CSharp.Properties.Resources.cabeca;
-            this.pbCabeca.Location = new System.Drawing.Point(354, 141);
+            this.pbCabeca.Location = new System.Drawing.Point(484, 138);
             this.pbCabeca.Name = "pbCabeca";
             this.pbCabeca.Size = new System.Drawing.Size(45, 36);
             this.pbCabeca.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -267,7 +283,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Forca_CSharp.Properties.Resources.forca;
-            this.pictureBox1.Location = new System.Drawing.Point(260, 38);
+            this.pictureBox1.Location = new System.Drawing.Point(393, 25);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(255, 400);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
