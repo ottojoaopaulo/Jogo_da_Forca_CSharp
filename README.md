@@ -10,9 +10,9 @@
 - `Funcionalidade 4`: Caso acerte ou erre a palavra, jogo ira reiniciar automaticamente
 
 
-
+https://github.com/ottojoaopaulo/Jogo_da_Forca_CSharp/assets/100943474/dfaf2d94-a786-4270-88a1-4615231711cf
 
 
 # Tecnologias Usadas
  - C#
-  - VisualStudio 2022
+ - VisualStudio 2022
